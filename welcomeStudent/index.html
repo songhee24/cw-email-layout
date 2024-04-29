@@ -27,6 +27,18 @@
             background-position: center bottom 12px;
         }
 
+        .welcome {
+            width: 532px;
+        }
+
+        .dawns {
+            width: 411px;
+        }
+
+
+        .footer-td {
+            padding: 30px 0 0 0
+        }
 
         table {
             border-spacing: 0;
@@ -65,13 +77,26 @@
             .bg-logo {
                 background-size: cover;
                 width: 100%;
-                background-position: center bottom -869px;
+                background-position: center top 20px;
             }
 
             .bg {
-                background-size: cover;
+                background-image: none;
+                background-color: #EBEAEA;
                 padding: 0;
-                background-position: center bottom 45px;
+                border-radius: 0 0 38px 38px;
+            }
+
+            .welcome {
+                width: 362px;
+            }
+
+            .dawns {
+                width: 320px;
+            }
+
+            .footer-td {
+                padding: 0;
             }
 
         }
@@ -187,7 +212,8 @@
                                                 <tr>
                                                     <td align="center" style="width: 100%">
                                                         <a href="#" title="HTML Email Check" target="_blank">
-                                                            <img width="532"
+                                                            <img
+                                                                 class="welcome"
                                                                  src='https://email-template-photos.s3.eu-central-1.amazonaws.com/studymate/welcome/welcome.png'
                                                                  alt="welcome">
                                                         </a>
@@ -216,7 +242,7 @@
                                                     <td align="center" style=" padding: 0" valign="top">
                                                         <!--                                                        <img alt="dawns" src="https://i.ibb.co/YRdjcnN/dawns.png">-->
                                                         <a href="#" title="HTML Email Check" target="_blank">
-                                                            <img width="411" alt="dawns"
+                                                            <img class="dawns" alt="dawns"
                                                                  src="https://email-template-photos.s3.eu-central-1.amazonaws.com/studymate/welcome/dawns.png">
 
                                                         </a>
@@ -255,7 +281,7 @@
                         <!--    END MAIN CONTENT     -->
                         <!--    FOOTER     -->
                         <tr>
-                            <td style="padding: 30px 0 0 0">
+                            <td class="footer-td">
                                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
                                        style="color: #141415;">
                                     <tr>
