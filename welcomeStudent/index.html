@@ -10,6 +10,24 @@
     <!--    <meta name="supported-color-schemes" content="light dark" />-->
     <title>Title</title>
     <style type="text/css">
+        .bg-logo {
+            background-image: url('https://email-template-photos.s3.eu-central-1.amazonaws.com/studymate/welcome/bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center bottom -915px;
+        }
+
+
+        .bg {
+            width: 100%;
+            padding: 0 0 16px 0;
+            background-image: url('https://email-template-photos.s3.eu-central-1.amazonaws.com/studymate/welcome/bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center bottom 12px;
+        }
+
+
         table {
             border-spacing: 0;
             mso-cellspacing: 0;
@@ -44,10 +62,18 @@
         /*}*/
 
         @media screen and (max-width: 599.98px) {
-            .reset {
-                width: 100% !important;
-                height: auto !important;
+            .bg-logo {
+                background-size: cover;
+                width: 100%;
+                background-position: center bottom -869px;
             }
+
+            .bg {
+                background-size: cover;
+                padding: 0;
+                background-position: center bottom 45px;
+            }
+
         }
 
         @media screen and (max-width: 399.98px) {
@@ -110,7 +136,7 @@
     <div style="max-width: 585px;background-color: #0149fe;box-shadow: 0 0 10px rgba(0, 0, 0, .2); border-radius: 32px; padding: 18px 18px 18px 18px">
         <!-- Preheader (remove comment) -->
         <div style="font-size: 0px;color: #fafdfe;line-height: 1px;mso-line-height-rule:exactly;display: none;max-width: 0px;max-height: 0px;opacity: 0;overflow: hidden;mso-hide:all;">
-            
+
         </div>
         <!-- End Preheader (remove comment) -->
 
@@ -121,11 +147,13 @@
             <tr>
                 <td>
                     <table align="center"
-                           border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-image: url('https://email-template-photos.s3.eu-central-1.amazonaws.com/studymate/welcome/bg.png'); background-size:cover; background-repeat: no-repeat; background-position: center bottom -915px;">
+                           border="0" cellpadding="0" cellspacing="0" role="presentation" class="bg-logo">
                         <tr>
                             <td style="width: 600px; padding: 0 0 20px 0; text-align: center; position: relative;">
                                 <a href="https://google.com" target="_blank">
-                                    <img alt="logo" border="0" src="https://email-template-photos.s3.eu-central-1.amazonaws.com/studymate/welcome/logo.png" style="vertical-align: middle;"
+                                    <img alt="logo" border="0"
+                                         src="https://email-template-photos.s3.eu-central-1.amazonaws.com/studymate/welcome/logo.png"
+                                         style="vertical-align: middle;"
                                          width="155">
                                 </a>
                             </td>
@@ -137,16 +165,17 @@
 
             <tr>
                 <td>
-                    <table style="width: 100%; padding: 0 0 16px 0; background-image: url('https://email-template-photos.s3.eu-central-1.amazonaws.com/studymate/welcome/bg.png'); background-size:cover; background-repeat: no-repeat;background-position: center bottom 12px;">
+                    <table class="bg">
                         <!--    MAIN CONTENT     -->
                         <tr>
                             <td style="padding: 0 0 0 0">
                                 <table align="center"
-                                       border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;color: #0149fe;">
+                                       border="0" cellpadding="0" cellspacing="0" role="presentation"
+                                       style="width: 100%;color: #0149fe;">
                                     <tr>
                                         <td align="center" style="width: 130px; padding: 0;" valign="top">
                                             <p style="line-height: 130%; font-size: 18px; font-weight: 500; padding: 0; font-family: Verdana,serif">
-                                                Hi, Jessica Kim!
+                                                Hi Jessika Kim!
                                             </p>
                                         </td>
                                     </tr>
@@ -158,20 +187,22 @@
                                                 <tr>
                                                     <td align="center" style="width: 100%">
                                                         <a href="#" title="HTML Email Check" target="_blank">
-                                                            <img width="532" src='https://email-template-photos.s3.eu-central-1.amazonaws.com/studymate/welcome/welcome.png' alt="welcome">
+                                                            <img width="532"
+                                                                 src='https://email-template-photos.s3.eu-central-1.amazonaws.com/studymate/welcome/welcome.png'
+                                                                 alt="welcome">
                                                         </a>
                                                     </td>
-<!--                                                    <td style="width: 52px; background-image: url('https://i.ibb.co/TWK25Fq/huita.png'); background-repeat: no-repeat; background-position: center top 1px; padding: 0; text-align: center;">-->
-<!--                                                        &lt;!&ndash;                                            <img src="huita.png" alt="logo" border="0" width="42"&ndash;&gt;-->
-<!--                                                        &lt;!&ndash;                                                 style="vertical-align: middle;">&ndash;&gt;-->
-<!--                                                    </td>-->
-<!--                                                    <td align="center" style="padding:0" valign="top"><h1-->
-<!--                                                            style="margin: 0; text-align: center; font-size: 40px; line-height: 120%; color: #141415; font-family: Rubik Mono One,serif;">-->
-<!--                                                        Welcome to Your Learning Adventure!</h1></td>-->
-<!--                                                    <td style="width: 65px;background-image: url('https://i.ibb.co/X23tzMC/huita2.png'); background-repeat: no-repeat; background-position: center top 1px; padding: 0; text-align: center;">-->
-<!--                                                        &lt;!&ndash;                                            <img src="huita.png" alt="logo" border="0" width="42"&ndash;&gt;-->
-<!--                                                        &lt;!&ndash;                                                 style="vertical-align: middle;">&ndash;&gt;-->
-<!--                                                    </td>-->
+                                                    <!--                                                    <td style="width: 52px; background-image: url('https://i.ibb.co/TWK25Fq/huita.png'); background-repeat: no-repeat; background-position: center top 1px; padding: 0; text-align: center;">-->
+                                                    <!--                                                        &lt;!&ndash;                                            <img src="huita.png" alt="logo" border="0" width="42"&ndash;&gt;-->
+                                                    <!--                                                        &lt;!&ndash;                                                 style="vertical-align: middle;">&ndash;&gt;-->
+                                                    <!--                                                    </td>-->
+                                                    <!--                                                    <td align="center" style="padding:0" valign="top"><h1-->
+                                                    <!--                                                            style="margin: 0; text-align: center; font-size: 40px; line-height: 120%; color: #141415; font-family: Rubik Mono One,serif;">-->
+                                                    <!--                                                        Welcome to Your Learning Adventure!</h1></td>-->
+                                                    <!--                                                    <td style="width: 65px;background-image: url('https://i.ibb.co/X23tzMC/huita2.png'); background-repeat: no-repeat; background-position: center top 1px; padding: 0; text-align: center;">-->
+                                                    <!--                                                        &lt;!&ndash;                                            <img src="huita.png" alt="logo" border="0" width="42"&ndash;&gt;-->
+                                                    <!--                                                        &lt;!&ndash;                                                 style="vertical-align: middle;">&ndash;&gt;-->
+                                                    <!--                                                    </td>-->
                                                 </tr>
                                             </table>
                                         </td>
@@ -183,9 +214,10 @@
                                                    style="width: 432px; color: #141415;">
                                                 <tr>
                                                     <td align="center" style=" padding: 0" valign="top">
-<!--                                                        <img alt="dawns" src="https://i.ibb.co/YRdjcnN/dawns.png">-->
+                                                        <!--                                                        <img alt="dawns" src="https://i.ibb.co/YRdjcnN/dawns.png">-->
                                                         <a href="#" title="HTML Email Check" target="_blank">
-                                                            <img width="411" alt="dawns" src="https://email-template-photos.s3.eu-central-1.amazonaws.com/studymate/welcome/dawns.png">
+                                                            <img width="411" alt="dawns"
+                                                                 src="https://email-template-photos.s3.eu-central-1.amazonaws.com/studymate/welcome/dawns.png">
 
                                                         </a>
                                                     </td>
@@ -193,8 +225,10 @@
                                                 <tr>
                                                     <td align="center" style="padding: 42px 0; width: 430px"
                                                         valign="top">
-                                                        <p style="font-family: Arial, serif;">Good job! You've just taken your first step by signing up at
-                                                           <a style="color: #0149fe" href="#">studymate.us!</a>  You've opened the door to a thrilling journey
+                                                        <p style="font-family: Arial, serif;">Good job! You've just
+                                                            taken your first step by signing up at
+                                                            <a style="color: #0149fe" href="#">studymate.us!</a> You've
+                                                            opened the door to a thrilling journey
                                                             of learning
                                                             and discovery. We are absolutely delighted to welcome you to
                                                             our
